@@ -86,6 +86,12 @@ button:disabled {
 	margin-top: 8px;
 	border-radius: 16px;
 }
+.download {
+	display: inline-block;
+	margin-top: 12px;
+	color: #e8a8ff;
+	font-weight: 700;
+}
 .credit {
 	margin: 22px 0 0;
 	color: #8f96ab;

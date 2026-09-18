@@ -18,13 +18,13 @@
         <select id="model" aria-label="Image model">
           <option value="flux">Flux · fast</option>
           <option value="zimage">Z-Image · detailed</option>
-          <option value="kontext">Kontext · edit/reference capable</option>
         </select>
         <button type="submit">Grow image ✦</button>
       </div>
     </form>
-    <p id="status" role="status"></p>
+    <p id="status" role="status" aria-live="polite"></p>
     <img id="result" alt="Generated result" hidden>
+    <a id="download" class="download" download="polli-garden.png" hidden>Download image ↓</a>
     <p class="credit">Powered by <a href="https://pollinations.ai/" target="_blank" rel="noreferrer">Pollinations</a></p>
   </main>
   <script src="app.js"></script>
